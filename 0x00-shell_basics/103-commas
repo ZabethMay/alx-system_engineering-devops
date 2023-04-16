@@ -1,3 +1,2 @@
 #!/bin/bash
-ls -1aFv | LC_COLLATE=en_US.UTF-8 sort -df | sed -e 's#\(.*\)/$#\1/#' | tr '\n' ',' && echo
-
+ls -m
